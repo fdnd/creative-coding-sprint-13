@@ -187,7 +187,6 @@ dl+p {
     transform: translateY(100px);
     opacity: 0;
     animation: fade-in-translate 0.5s var(--delay) ease-out forwards;
-    animation: fade-in-translate 0.5s var(--delay) ease-out forwards;
   }
 }
 
@@ -196,7 +195,6 @@ dl+p {
     transform: translateY(-100px);
     opacity: 0;
     animation: fade-in-translate 0.5s var(--delay) ease-out forwards;
-    /* animation: fade-in-translate 0.5s  ease-out forwards; */
   }
 }
 
