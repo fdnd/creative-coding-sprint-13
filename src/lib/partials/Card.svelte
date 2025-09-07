@@ -3,7 +3,7 @@
 </script>
 
 <article
-  class="member animation--left"
+  class="member"
   style="--delay: {index * 0.06}s; --vt: person-{member.id}; --vt-before: person-before-{member.id}"
 >
   <div class="member-inner">
