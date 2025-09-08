@@ -11,7 +11,7 @@
       src="https://fdnd.directus.app/assets/{member.mugshot}?fit=cover&width=1600"
       alt={member.name}
     />
-    <div class="content" style="--vt: person-text-{member.id}">
+    <div class="content" style="--vst: person-text-{member.id}">
       <div class="labels">
         {#each member.role as role}
           <span class="xsmall-body font-semibold caps"
@@ -45,8 +45,8 @@
       bottom: 0;
       z-index: -1;
       z-index: 1;
-      view-transition-name: var(--vt-before);
-      view-transition-class: member-card-before;
+      /* view-transition-name: var(--vt-before); */
+      /* view-transition-class: member-card-before; */
       background: linear-gradient(
         7deg,
         rgba(5, 5, 66, 0.5) 0%,
@@ -91,7 +91,7 @@
     }
   }
   .content {
-    view-transition-class: member-card-text;
+    /* view-transition-class: member-card-text; */
     z-index: 1;
     padding: 1.25rem;    
   }
